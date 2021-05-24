@@ -8,7 +8,7 @@
 }
 .header{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding: 20px 13%;
     background-color: #222222;
@@ -27,7 +27,6 @@
     background-color: #F1E4E6;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
@@ -40,6 +39,11 @@ content_block_tittle img{
     color: #F16D7F;
 
 }
+.content_block_tittle_man{
+    width: 50%;
+}.content_block_tittle_man img{
+    width: 100%;
+ }
 .content_block_tittle h1{
 
     font-family: Lato;
@@ -49,8 +53,74 @@ content_block_tittle img{
     font-size: 38px;
 }
 .content_block_tittle_h1{
+    width: 50%;
     border-left: 12px solid  #F16D7F;
 }
 .content_block_tittle_h1_padding{
     padding-left: 20px;
+}.content_product_top{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+ }
+ .content_product{
+     /*padding: 65px 220px;*/
+     width: 72%;
+     align-items: center;
+     margin: 0 auto;
+
+ }
+.content_product span,.content_product h3{
+    text-transform: uppercase;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F16D7F;
+}
+.content_product a{
+    text-decoration: none;
+}
+.content_product span{
+    color: #ffffff;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+ .content_product_top_1,.content_product_top_2,.content_product_top_3{
+     width: 360px;
+     height: 260px;
+     margin: 30px auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .content_product_top_1{
+     background-image: url(src/women.png);
+     margin: 30px auto;
+ }
+.content_product_top_2{
+     background-image: url(src/product_men.png);
+    margin: 30px auto;
+ }
+.content_product_top_3{
+     background-image: url(src/chaild.png);
+    margin: 30px auto;
+ }
+.content_product_bottom{
+    background-image: url(src/product_bottom.png);
+    height: 180px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
