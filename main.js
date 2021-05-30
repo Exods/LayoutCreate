@@ -1,7 +1,7 @@
 $(function () {
     var menuHidden = $(".menu_hover");
     $('.menu').on('click',function () {
-        $(menuHidden).css('display','flex');
+        $(menuHidden).css('display','block');
     })
     $('.close').on('click',function () {
         $(menuHidden).css('display','none')
