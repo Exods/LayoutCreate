@@ -519,10 +519,14 @@ content_block_tittle img {
     align-items: center;
     height: 448px;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .footer_botom img {
     padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .subscribe_email {
@@ -581,6 +585,7 @@ content_block_tittle img {
 
 .form_subscribe {
     display: flex;
+    padding: 10px;
 }
 
 .form_subscribe input {
@@ -746,7 +751,7 @@ content_block_tittle img {
 
     .menu_hover {
         padding: 5px;
-        height: 65%;
+        height: 100%;
     }
 
     .menu_hover li {
@@ -765,6 +770,9 @@ content_block_tittle img {
 @media screen and (max-width: 767px){
     .new_arrivals_left h1{
         font-size: 24px;
+    }
+    .sale{
+        flex-direction: column;
     }
     .filter_left h4{
         display: none;
@@ -851,6 +859,12 @@ content_block_tittle img {
     }
     .subscribe{
         padding: 10px 0;
+    }
+    .pages h6{
+        font-size: 10px;
+    }
+    .pages{
+        width: 230px;
     }
 
 }
