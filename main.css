@@ -835,15 +835,140 @@ content_block_tittle img {
     color: #6F6E6E;
 
 }
-.filter_left:hover{
+
+.filter_left:hover {
     box-shadow: 0px -9px 20px 0px;
 }
-.filter_left:hover .filter_active{
+
+.filter_left:hover .filter_active {
     display: block;
 }
-.filter_left:hover .filter_left h4{
+
+.filter_left:hover .filter_left h4 {
     color: #EF5B70;
 }
+
+.content_block_tittle_women {
+    background-image: url(src/card_women.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #F7F7F7;
+    width: 597px;
+    height: 100%;
+}
+.women_collection_wraper{
+    margin-bottom: 130px;
+}
+.left_slider{
+    left:0;
+}
+.right_slider{
+    left: 99%;
+}
+.wraper_women{
+    background-color: #F7F7F7;
+    height: 725px;
+    justify-content: center;
+    position: relative;
+}
+.wraper_women img{
+    position: absolute;
+}
+.women_collection{
+   margin-top:-55px ;
+    background: #ffffff;
+    max-width: 1140px;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAEAEA;
+    align-items: center;
+}
+.wrap_women_heading{
+    border-bottom: 3px solid #EF5B70;
+    padding: 10px;
+}
+.wrap_women_heading h3{
+     font-family: Lato;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 17px;
+     color: #F16D7F;
+ }
+.women_collection_mochino h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-top: 10px;
+}
+
+.women_collection_filter{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+.women_collection p{
+    width: 555px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-top: 50px;
+}
+.women_collection_filter a{
+    color: #6F6E6E;
+    text-decoration: none;
+    background-color: transparent;
+}
+.women_collection_bottom{
+    border-top: 1px solid #EAEAEA;
+}
+.women_collection_filter{
+    display: flex;
+    flex-direction: row;
+}
+.women_collection_filter .line{
+    display: flex;
+}
+.women_collection_filter .line img{
+    padding: 10px;
+}
+.women_collection_price h3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    padding: 30px;
+}
+.women_collection_filter{
+    padding: 65px;
+}
+.women_collection_bottom_button{
+    padding: 14px 23px;
+    border: 1px solid #FF6A6A;
+    color: #EF5B70;
+
+}
+.women_collection_bottom_button a{
+    display: flex;
+    color: #EF5B70;
+}
+.women_collection_bottom_button h6{
+    margin: 0 10px;
+}
+
 
 @media screen and (max-width: 768px) {
     .sale_item {
@@ -865,6 +990,10 @@ content_block_tittle img {
 
     .subscribe p {
         padding: 10px;
+    }
+
+    .filter {
+        width: 100%;
     }
 }
 
@@ -896,6 +1025,10 @@ content_block_tittle img {
     .filter {
         width: 100%;
         justify-content: space-around;
+    }
+
+    .filter_left:hover {
+        box-shadow: none;
     }
 
     .filter_items {
@@ -980,6 +1113,27 @@ content_block_tittle img {
 
     .pages {
         width: 230px;
+    }
+    .women_collection p {
+        width: 100%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 17px;
+        text-align: center;
+        color: #5E5E5E;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .women_collection_filter{
+        padding: 5px;
+    }
+    .women_collection_filter h5{
+        font-size: 8px;
+    }
+    .women_collection_bottom_button{
+        margin-top: 50px;
     }
 
 }
