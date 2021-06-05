@@ -1082,6 +1082,12 @@ content_block_tittle img {
     padding: 15px 40px;
     white-space: nowrap;
     color: white;
+    transition-duration: 0.5s;
+}
+.form_input_bottom_button button:hover{
+    color: #F16D7F;
+    background: white;
+    transform: rotate(360deg);
 }
 .form_input_bottom .grand_total{
     display: inline-flex;
