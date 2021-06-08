@@ -1092,9 +1092,119 @@ content_block_tittle img {
 .form_input_bottom .grand_total{
     display: inline-flex;
 }
+.registration_wrapper input{
+    border: 1px solid #A4A4A4;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding: 15px 200px 15px 12px;
+    margin: 21px 0 0 0;
+}
+.registration_sex input{
+    margin-right:  10px;
+}
+.registration_sex{
+    margin-bottom: 20px;
+}
+.registration_wrapper,.loyal_wrap{
+    padding-top: 65px;
+}
+.registration_wrapper{
+    min-height: 675px;
+    display: flex;
+    flex-direction: column;
+}
+.registration_wrapper p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 20px;
+    color: #B1B1B1;
+}
+.registration_name, .registration_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 340px;
+}
+.registration_wrapper button span{
+    padding-left: 10px;
+}
+.registration_wrapper button{
+    width: max-content;
+    padding: 16px 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border: none;
+    border-radius: 2px;
+
+}
+.registration_wrapper h6{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+}
+.registration_wrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.loyalty{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.loyalty h5{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.loyalty p,.loyalty ul li{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.loyalty ul{
+    list-style: none;
+    padding: 0;
+}
+.loyalty li{
+    padding-left: 10px;
+    white-space:nowrap;
+}
+.loyalty li:before{
+    content: '✔';
+    padding: 0 25px 0 0;
+}
 
 @media screen and (max-width: 768px) {
-
+    .loyalty li{
+        padding-left: 5px;
+        white-space:normal;
+    }
     .form_input{
         flex-direction: row;
         padding: 0;
@@ -1127,6 +1237,13 @@ content_block_tittle img {
 }
 
 @media screen and (max-width: 767px) {
+    .registration_wrapper input[type="text"],input[type="password"]{
+        padding: 10px;
+        width: 100%;
+    }
+    .registration_wrapper{
+        min-height: auto;
+    }
     .form_input_bottom{
         padding: 5px;
     }
